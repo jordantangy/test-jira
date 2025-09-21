@@ -1,3 +1,4 @@
+cat jira.yml 
 version: 1
 issues: 
   # The serverID yaml property is optional. The --server-id command option, if provided, overrides the serverID value.
@@ -5,7 +6,7 @@ issues:
   # the default server, configured by the "jfrog config add" command is used.
   serverID: elina
 
-  trackerName: JIRA-12345
+  trackerName: JIRA-9483
   regexp: ([A-Z]+)-(\d+)
   keyGroupIndex: 1
   summaryGroupIndex: 2
